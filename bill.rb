@@ -1,5 +1,5 @@
 class Bill
-  attr_accessor :total_amount. :num_people, :tip_percentage
+  attr_accessor :total_amount, :num_people, :tip_percentage
 
   def initialize(total_amount, num_people, tip_percentage)
     @total_amount = total_amount.to_f
